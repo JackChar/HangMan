@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:FlyBall" x:Class="FlyBall.FlyBallPage">
+<ContentPage.Content>
+        <AbsoluteLayout>
+			<Label x:Name="titleLabel" Text="HangMan" Font="56" TranslationY="0" TranslationX="70"/>
+			<Label x:Name="headLabel" Text="0" Font="56" TranslationY="88" TranslationX="175"/>
+			<Label x:Name="bodyLabel" Text="I" Font="56" TranslationY="125" TranslationX="185"/>
+			<Label x:Name="larmLabel" Text="/" Font="46" TranslationY="130" TranslationX="175"/>
+			<Label x:Name="rarmLabel" Text="\" Font="46" TranslationY="130" TranslationX="195"/>
+			<Label x:Name="rlegLabel" Text="\" Font="56" TranslationY="160" TranslationX="192"/>
+			<Label x:Name="llegLabel" Text="/" Font="56" TranslationY="160" TranslationX="175"/>
+			<Label x:Name="underlineLabel" Text="____   _____" Font="56" TranslationY="0" TranslationX="70"/>
+			<Label x:Name="floorLabel" Text="_____" Font="45" TranslationY="200" TranslationX="143"/>
+			<Label x:Name="ropeLabel" Text="\" Font="56" TextColor="Olive" TranslationY="70" TranslationX="165"/>
+
+			<Label x:Name="outputLabel" Text="" Font="35" FontFamily="Courier" TranslationY="275" TranslationX="40" HorizontalTextAlignment="Center"/>
+		    <Label x:Name="underLabel" Text="" Font="35" FontFamily="Courier" TranslationY="285" TranslationX="35" HorizontalTextAlignment="Center"/>
+
+			<Button x:Name="startButton" Clicked = "startButtonClicked" Text="Start" Font="40" TranslationY="325" TranslationX="10"/>
+			
+			<Button x:Name="aButton" Clicked = "aButtonClicked" Text="A" Font="40" TranslationY="400" TranslationX="25"/>
+			<Button x:Name="bButton" Clicked = "bButtonClicked" Text="B" Font="40" TranslationY="400" TranslationX="50"/>
+			<Button x:Name="cButton" Clicked = "cButtonClicked" Text="C" Font="40" TranslationY="400" TranslationX="75"/>
+			<Button x:Name="dButton" Clicked = "dButtonClicked" Text="D" Font="40" TranslationY="400" TranslationX="100"/>
+			<Button x:Name="eButton" Clicked = "eButtonClicked" Text="E" Font="40" TranslationY="400" TranslationX="125"/>
+			<Button x:Name="fButton" Clicked = "fButtonClicked" Text="F" Font="40" TranslationY="400" TranslationX="150"/>
+			<Button x:Name="gButton" Clicked = "gButtonClicked" Text="G" Font="40" TranslationY="400" TranslationX="175"/>
+			<Button x:Name="hButton" Clicked = "hButtonClicked" Text="H" Font="40" TranslationY="400" TranslationX="200"/>			
+			<Button x:Name="iButton" Clicked = "iButtonClicked" Text="I" Font="40" TranslationY="400" TranslationX="220"/>
+			<Button x:Name="jButton" Clicked = "jButtonClicked" Text="J" Font="40" TranslationY="400" TranslationX="235"/>
+			<Button x:Name="kButton" Clicked = "kButtonClicked" Text="K" Font="40" TranslationY="400" TranslationX="260"/>
+			<Button x:Name="lButton" Clicked = "lButtonClicked" Text="L" Font="40" TranslationY="400" TranslationX="285"/>
+			<Button x:Name="mButton" Clicked = "mButtonClicked" Text="M" Font="40" TranslationY="400" TranslationX="310"/>
+			<Button x:Name="nButton" Clicked = "nButtonClicked" Text="N" Font="40" TranslationY="450" TranslationX="15"/>
+			<Button x:Name="oButton" Clicked = "oButtonClicked" Text="O" Font="40" TranslationY="450" TranslationX="40"/>
+			<Button x:Name="pButton" Clicked = "pButtonClicked" Text="P" Font="40" TranslationY="450" TranslationX="65"/>
+			<Button x:Name="qButton" Clicked = "qButtonClicked" Text="Q" Font="40" TranslationY="450" TranslationX="90"/>
+			<Button x:Name="rButton" Clicked = "rButtonClicked" Text="R" Font="40" TranslationY="450" TranslationX="115"/>
+			<Button x:Name="sButton" Clicked = "sButtonClicked" Text="S" Font="40" TranslationY="450" TranslationX="140"/>
+			<Button x:Name="tButton" Clicked = "tButtonClicked" Text="T" Font="40" TranslationY="450" TranslationX="165"/>
+			<Button x:Name="uButton" Clicked = "uButtonClicked" Text="U" Font="40" TranslationY="450" TranslationX="190"/>
+			<Button x:Name="vButton" Clicked = "vButtonClicked" Text="V" Font="40" TranslationY="450" TranslationX="215"/>
+			<Button x:Name="wButton" Clicked = "wButtonClicked" Text="W" Font="40" TranslationY="450" TranslationX="240"/>
+			<Button x:Name="xButton" Clicked = "xButtonClicked" Text="X" Font="40" TranslationY="450" TranslationX="275"/>
+			<Button x:Name="yButton" Clicked = "yButtonClicked" Text="Y" Font="40" TranslationY="450" TranslationX="300"/>
+			<Button x:Name="zButton" Clicked = "zButtonClicked" Text="Z" Font="40" TranslationY="450" TranslationX="320"/>  
+	     </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>
+
